@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Soporte</title>
+
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css"><!--Iconos JAM-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Eczar&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header class="header">
+
+        <a href="../index.html"><img src="../img/mir4logo.png" alt="mir4 logo" height="45px" width="135px"></a>
+
+        <nav>
+            <ul class="nav__lista">
+                <li class="nav__item"><a href="../index.html">Inicio</a></li>
+                <li class="nav__item"><a href="./jugarAhora.html">Jugar ahora</a></li>
+                <li class="nav__item"><a href="./noticias.html">Noticias</a></li>
+                <li class="nav__item"><a href="./cronicas.html">Cronicas</a></li>
+                <li class="nav__item"><a href="#">Soporte</a></li>
+            </ul>
+        </nav>
+
+        <div>
+            <ul class="nav__redes">
+                <li><a href="#"><span class="jam jam-instagram header__icon"></span></a></li>
+                <li><a href="#"><span class="jam jam-twitter header__icon"></span></a></li>
+                <li><a href="#"><span class="jam jam-youtube header__icon"></span></a></li>
+                <li><a href="#"><span class="jam jam-facebook header__icon"></span></a></li>
+            <ul>
+        <div>
+
+    </header>
+
+    <main>
+        <form class="formulario" action="">
+
+            <h3>Consultas, reportes, bugs</h3>
+
+            <div>
+                <label for="nombre">Nombre</label>
+                <input name="nombre" id="nombre" type="text" placeholder="Esteban Carrizo" required>
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input name="email" id="email" type="email" placeholder="usuario@gmail.com" required>
+            </div>
+
+            <div>
+                <label for="tipoComentario"></label>
+                <select name="tipoComentario" id="tipoComentario" required>
+                    <option value="">Categoria</option>
+                    <option value="consulta">Consutlas</option>
+                    <option value="reporte">Reporte</option>
+                    <option value="bug">Bug</option>
+                </select>
+            </div>
+
+            <div>
+                <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Escriba un comentario" required></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form> 
+
+    </main>
+    
+    <footer>
+
+        <div class="footer__container">
+            <p>Siguenos</p>
+
+            <div>
+                <ul class="redes__footer">
+                    <li><a href="#"><span class="jam jam-instagram header__icon"></span></a></li>
+                    <li><a href="#"><span class="jam jam-twitter header__icon"></span></a></li>
+                     <li><a href="#"><span class="jam jam-youtube header__icon"></span></a></li>
+                    <li><a href="#"><span class="jam jam-facebook header__icon"></span></a></li>
+                 <ul>
+             </div>
+
+        </div>
+        
+        <p>Todos los derechos reservados</p>
+        
+    </footer>
+</body>
+</html>

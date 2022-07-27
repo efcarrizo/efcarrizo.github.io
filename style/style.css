@@ -1,0 +1,699 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Eczar', serif;
+
+}
+
+/*Cambios generales a etiquetas*/
+a {
+    text-decoration: none;
+    color: inherit; /*Esto sirve para poder cambiar el color de los enlaces independientemente*/
+}
+
+a:hover {
+    color: rgb(190, 35, 35);
+}
+
+/*Header de todas las paginas*/
+header {
+    font-size: 18px;
+    color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background-color: black;
+    height: 70px;
+    padding: 30px;
+}
+
+.header__logo {
+    margin-top: 10px;
+}
+
+.nav__lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.nav__item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav__redes {
+    width: 180px;
+    font-size: 36px;
+    list-style: none;
+    margin-right: 10px ;
+    margin-top: 13px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
+
+/*----------------------------------------INDEX------------------------------*/
+
+
+
+/*Seccion Main del index*/
+
+/*Seccion 1, Bienvenida*/
+
+.bienvenida {
+    background-image: url(/img/bienvenidabackground.jpg);
+    height: 751px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 500px;
+}
+
+.texto--1 {
+    color: white;
+    font-size: 26px;
+}
+
+.texto--2 {
+    color: rgb(190, 35, 35);
+    font-size: 29px;
+}
+
+.texto--3 {
+    color: white;
+    font-size: 72px;
+}
+
+
+/*Seccion 2 Descarga rapida */
+
+.descargaRapida {
+    height: 120px;
+}
+
+.descargaRapida__contenedor {
+    font-size: 18px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.descargarapida__span {
+    display: block;
+    padding-left: 390px;
+    margin-top: 15px;
+}
+
+
+.descargaRapida__iconos {
+    font-size: 25px;
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.iconos--123 {
+    font-size: 17px;
+    background-color: rgb(126, 233, 233);
+    height: 50px;
+    width: 180px;
+
+    border: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.iconos--456 {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 180px;
+
+    border: none;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/*Seccion Noticias rapidas*/
+
+.noticiasRapidas {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(221, 221, 221);
+}
+
+.noticiasRapidas__contenedor1 {
+    text-align: left;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 500px;
+    margin: 50px;
+}
+
+.noticiasRapidas__contenedor2 {
+    
+    font-size: 30px;
+    color: white;
+    height: 200px;
+    width: 500px;
+
+    background-image: url(../img/fondoNoticiasRapidas.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/*Seccion Clases personajes*/
+
+.clasesPersonajes {
+    background-image: url(../img/clasespersonajesackground.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 821px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.clasesPersonajes__container1 {
+    color: rgb(190, 35, 35);
+    font-size: 30px;
+}
+
+.clasesPersonajes__container2 {
+    display: flex;
+    flex-shrink: row;
+}
+
+.card {
+    color: white;
+    height: 550px;
+    width: 350px;
+    margin: 12px;
+    margin-top: 60px;
+
+    border-radius: 30px;
+}
+
+.card__img {
+    margin: 40px 0px 0px 62px;
+}
+
+.card__title {
+    font-size: 25px;
+    text-align: center;
+}
+
+.card__text {
+    font-size: 16px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/*--------------------------------------NOTICIAS---------------------------------*/
+
+.noticias {
+    border-left: 80px solid black;
+    border-right: 80px solid black;
+    padding: 50px;
+}
+
+.noticias h1 {
+    font-size: 67px;
+    color: rgb(190, 35, 35);
+
+}
+
+.noticias h3 {
+    font-size: 40.2px;
+}
+
+.noticias p {
+    font-size: 30px;
+}
+
+
+/*--------------------------------------CRONICAS---------------------------------*/
+
+.cronicas {
+    border-left: 80px solid black;
+    border-right: 80px solid black;
+    padding: 50px;
+}
+
+.cgrid {
+    display: grid;
+
+    grid-template-areas: 
+        "cgrid1 cgrid2 cgrid2"
+        "cgrid1 cgrid3 cgrid4"
+        "cgrid1 cgrid5 cgrid6";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 400px);
+
+    row-gap: 20px ;
+    column-gap: 30px;
+
+    justify-items: stretch;
+    align-items: stretch;
+
+    justify-content: baseline ;
+    align-content: center ;
+}
+
+.cgrid__hijo--1{
+
+    grid-area: cgrid1;
+    background-color: red;
+}
+
+.cgrid__hijo--2{
+    grid-area: cgrid2;
+    background-color: blue;
+}
+
+.cgrid__hijo--3{
+    grid-area: cgrid3;
+    background-color: green;
+}
+
+.cgrid__hijo--4{
+    grid-area: cgrid4;
+    background-color: blueviolet;
+}
+
+.cgrid__hijo--5{
+    grid-area: cgrid5;
+    background-color: yellow;
+}
+
+.cgrid__hijo--6{
+    grid-area: cgrid6;
+    background-color: pink;
+}
+
+
+
+/*--------------------------------------SOPORTE---------------------------------*/
+
+
+/*Pagina soporte*/
+
+.formulario {
+    font-size: 32px;
+    height: 751px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*--------------------------------------JUGAR AHORA---------------------------------*/
+
+.descarga {
+    height: 751px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-left: 100px solid rgb(190, 35, 35);
+    border-right: 100px solid rgb(190, 35, 35);
+}
+
+.descarga__trailer {
+    margin-bottom: 25px;
+    padding-left: 50px;
+}
+
+.descarga__trailermovil {
+    display: none;
+}
+
+.descarga__iconos {
+    list-style: none;
+    padding: 30px;
+    margin-bottom: 35px;
+    
+}
+
+.descarga__iconos__boton123 {
+    color: white;
+    background-color: rgb(190, 35, 35);
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.descarga__iconos__boton456 {
+    color: white;
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+
+/*---------------------------------FOOTER TODAS LAS PAG--------------------------*/
+
+footer {
+    height: 120px;
+    color: white;
+    background-color: rgb(90, 90, 90);
+    text-align: center;
+}
+
+.footer__container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__container p{
+    margin-top: 10px;
+
+}
+
+.redes__footer {
+    list-style: none;
+    display: flex;
+}
+
+
+/*--------------------------------RESPONSIVE----------------------------*/
+/*------------------------------------INDEX----------------------------------*/
+
+@media screen and (max-width: 768px) {
+    .nav__redes{
+        display: none;
+    }
+    .bienvenida {
+        background: #000;
+        background-image: url(../img/backgroundindex.jpg);
+        height: 751px;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        padding-right: 20px;
+    }
+    
+    .texto--1 {
+        color: white;
+        font-size: 26px;
+    }
+    
+    .texto--2 {
+        color: rgb(190, 35, 35);
+        font-size: 29px;
+    }
+    
+    .texto--3 {
+        color: white;
+        font-size: 72px;
+    }
+
+    /*-------------------------------Noticias rapidas index---------------------------------------*/
+
+    .noticiasRapidas {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(221, 221, 221);
+    }
+    
+    .noticiasRapidas__contenedor1 {
+        text-align: left;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        width: 800px;
+
+    }
+    
+    .noticiasRapidas__contenedor2 {
+        
+        font-size: 15px;
+        color: white;
+        height: 150px;
+        width: 700px;
+    
+        background-image: url(../img/fondoNoticiasRapidas.png);
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        
+    
+    }
+
+      /*------------------------------------descarga rapida index----------------------------------*/
+
+    .descargaRapida {
+        height: 580px;
+    }
+    
+    .descargaRapida__contenedor {
+        font-size: 18px;
+    
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .descargarapida__span {
+        display: block;
+        padding-left: 230px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    
+    .descargaRapida__iconos {
+        font-size: 25px;
+        list-style: none;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+    }
+    
+    .iconos--123 {
+        font-size: 17px;
+        background-color: rgb(126, 233, 233);
+        height: 50px;
+        width: 180px;
+    
+        border: none;
+        border-radius: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .iconos--456 {
+        color: white;
+        background-color: rgb(0, 0, 0);
+        height: 50px;
+        width: 180px;
+    
+        border: none;
+        border-radius: 10px;
+        padding: 5px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    /*--------------------------------clases personajes index--------------------------------------*/
+    
+    .clasesPersonajes {
+        display: none;
+    }
+
+    /*--------------------------------Jugar ahora responsive--------------------------------------*/
+
+    .descarga {
+        height: 751px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-left: 50px solid rgb(190, 35, 35);
+        border-right: 50px solid rgb(190, 35, 35);
+    }
+    
+    .descarga__trailer {
+        display: none;
+
+    }
+
+    .descarga__trailermovil {
+        display: flex;
+    }
+    
+    .descarga__iconos {
+        list-style: none;
+        padding: 30px;
+        margin-bottom: 35px;
+        
+    }
+    
+    .descarga__iconos__boton123 {
+        color: white;
+        background-color: rgb(190, 35, 35);
+        width: 150px;
+        height: 50px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    
+    .descarga__iconos__boton456 {
+        color: white;
+        background-color: black;
+        width: 150px;
+        height: 50px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    /*--------------------------------Noticias responsive--------------------------------------*/
+
+    .noticias {
+        border-left: 20px solid black;
+        border-right: 20px solid black;
+        padding: 50px;
+    }
+    
+    .noticias h1 {
+        font-size: 40px;
+        color: rgb(190, 35, 35);
+    
+    }
+    
+    .noticias h3 {
+        font-size: 20px;
+    }
+    
+    .noticias p {
+        font-size: 15px;
+    }
+
+    .cronicas {
+        border-left: 80px solid black;
+        border-right: 80px solid black;
+        padding: 50px;
+    }
+    
+    /*--------------------------------Cronicas responsive--------------------------------------*/
+
+    .cgrid {
+        display: grid;
+    
+        grid-template-areas: 
+            "cgrid1 cgrid1 cgrid1"
+            "cgrid2 cgrid2 cgrid2"
+            "cgrid3 cgrid3 cgrid4"
+            "cgrid5 cgrid6 cgrid4";
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 200px);
+    
+        row-gap: 10px ;
+        column-gap: 20px;
+    
+        justify-items: stretch;
+        align-items: stretch;
+    
+        justify-content: baseline ;
+        align-content: center ;
+    }
+    
+    .cgrid__hijo--1{
+    
+        grid-area: cgrid1;
+        background-color: red;
+    }
+    
+    .cgrid__hijo--2{
+        grid-area: cgrid2;
+        background-color: blue;
+    }
+    
+    .cgrid__hijo--3{
+        grid-area: cgrid3;
+        background-color: green;
+    }
+    
+    .cgrid__hijo--4{
+        grid-area: cgrid4;
+        background-color: blueviolet;
+    }
+    
+    .cgrid__hijo--5{
+        grid-area: cgrid5;
+        background-color: yellow;
+    }
+    
+    .cgrid__hijo--6{
+        grid-area: cgrid6;
+        background-color: pink;
+    }
+}
